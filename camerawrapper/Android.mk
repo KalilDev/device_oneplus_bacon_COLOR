@@ -1,4 +1,4 @@
-ifneq ($(filter find7 find7op,$(TARGET_DEVICE)),)
+ifneq ($(filter find7 find7op bacon,$(TARGET_DEVICE)),)
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
