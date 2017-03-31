@@ -67,6 +67,7 @@ TARGET_SCREEN_WIDTH := 1080
 # Camera
 PRODUCT_PACKAGES += \
     libshim_camera \
+	camera-wrapper.msm8974 \
     Snap
 
 # Charger
