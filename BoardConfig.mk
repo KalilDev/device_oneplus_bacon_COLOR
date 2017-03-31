@@ -20,6 +20,8 @@
 
 PLATFORM_PATH := device/oneplus/bacon
 
+TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
+
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/include
 
